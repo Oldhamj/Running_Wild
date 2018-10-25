@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_one"
+            android:title="@string/one"
+            android:onClick="launchSecondActivity"/>
+        <item
+            android:id="@+id/nav_two"
+            android:title="@string/two"
+            android:onClick="launchMapsActivity"/>
+        <item
+            android:id="@+id/nav_three"
+            android:title="@string/three"
+            android:onClick="launchThirdActivity"/>
+        <item
+            android:id="@+id/nav_four"
+            android:title="@string/four"
+            android:onClick="launchFourthActivity"/>
+    </group>
+</menu>
