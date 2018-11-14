@@ -18,11 +18,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <uses-library android:name="org.apache.http.legacy" android:required="false" />
-=======
 
->>>>>>> 010068a875ebe13eb7e0981d142431b358f5e925
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -45,6 +41,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="Settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".SecondaryActivity"
             android:label="@string/title_activity_secondary"
