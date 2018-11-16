@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <group android:checkableBehavior="single">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu_top">
         <item
             android:id="@+id/nav_one"
-            android:title="@string/one"
+            android:title="@string/nav_one"
+            android:icon="@drawable/ic_profile"
             android:onClick="launchSecondActivity"/>
         <item
             android:id="@+id/nav_two"
-            android:title="@string/two"
+            android:title="@string/nav_two"
+            android:icon="@drawable/ic_map"
             android:onClick="launchMapsActivity"/>
         <item
             android:id="@+id/nav_three"
-            android:title="@string/three"
+            android:title="@string/nav_three"
+            android:icon="@drawable/ic_schedule"
             android:onClick="launchThirdActivity"/>
         <item
             android:id="@+id/nav_four"
-            android:title="@string/four"
+            android:title="@string/nav_four"
+            android:icon="@drawable/ic_history"
             android:onClick="launchFourthActivity"/>
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu_bottom">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/ic_home"
+            android:onClick="launchMainActivity"/>
     </group>
 </menu>

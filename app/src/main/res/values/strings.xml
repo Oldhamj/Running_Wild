@@ -1,18 +1,40 @@
 <resources>
     <string name="app_name">Running_Wild</string>
+    <!-- MainActivity "Home" Strings -->
+    <string name="title_activity_main">Running Wild</string>
+    <string name="textview">Home</string>
+
+    <!-- SecondaryActivity "Profile" Strings -->
+    <string name="title_activity_secondary">Profile</string>
+    <string name="textView2">Profile Page Content</string>
+
+    <!-- MapsActivity "Map" Strings -->
+
+    <!-- ThirdActivity "Schedule" Strings -->
+    <string name="title_activity_third">Schedule</string>
+    <string name="textView3">Schedule Page Content</string>
+
+    <!-- FourthActivity "History" Strings -->
+    <string name="title_activity_fourth">History</string>
+    <string name="textView4">History Page Content</string>
+
     <string name="title_activity_maps">Map</string>
-    <string name="title_activity_main">Running_Wild</string>
-    <string name="textview">Main Activity</string>
-    <string name="one">One</string>
-    <string name="two">Map</string>
-    <string name="three">Three</string>
-    <string name="four">Four</string>
     <string name="my_header_title">Run Tracker</string>
-    <string name="textView2">First Page Text</string>
-    <string name="title_activity_secondary">Secondary Activity</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_third">ThirdActivity</string>
-    <string name="title_activity_fourth">FourthActivity</string>
-    <string name="textView3">Third Page</string>
-    <string name="textView4">Fourth Page</string>
+
+    <!-- Navigation Drawer Strings -->
+    <string name="nav_header_title">Running Wild</string>
+    <string name="nav_header_subtitle">CSC 415 : Group 4</string>
+    <string name="nav_one">Profile</string>
+    <string name="nav_two">Map</string>
+    <string name="nav_three">Schedule</string>
+    <string name="nav_four">History</string>
+    <string name="nav_home">Home</string>
+    <string name="title_activity_base_drawer">BaseDrawerActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="textview5">Base</string>
 </resources>
