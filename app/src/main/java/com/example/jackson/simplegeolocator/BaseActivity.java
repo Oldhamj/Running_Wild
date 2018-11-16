@@ -1,7 +1,7 @@
 package com.example.jackson.simplegeolocator;
 
-import android.app.Activity;
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -9,7 +9,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -35,17 +34,17 @@ public class BaseActivity extends AppCompatActivity {
         mDrawerLayout.addDrawerListener(
                 new DrawerLayout.DrawerListener() {
                     @Override
-                    public void onDrawerSlide(View drawerView, float slideOffset) {
+                    public void onDrawerSlide(@NonNull View drawerView, float slideOffset) {
                         // Respond when the drawer's position changes
                     }
 
                     @Override
-                    public void onDrawerOpened(View drawerView) {
+                    public void onDrawerOpened(@NonNull View drawerView) {
                         // Respond when the drawer is opened
                     }
 
                     @Override
-                    public void onDrawerClosed(View drawerView) {
+                    public void onDrawerClosed(@NonNull View drawerView) {
                         // Respond when the drawer is closed
                     }
 
@@ -90,6 +89,29 @@ public class BaseActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    /*public void launchActivity(MenuItem item) {
+        Intent intent = new Intent();
+        switch (item.getItemId()) {
+            case R.id.nav_one:
+                intent = new Intent(this, SecondaryActivity.class);
+                break;
+            case R.id.nav_two:
+                intent = new Intent(this, SecondaryActivity.class);
+                break;
+            case R.id.nav_three:
+                intent = new Intent(this, SecondaryActivity.class);
+                break;
+            case R.id.nav_four:
+                intent = new Intent(this, SecondaryActivity.class);
+                break
+            case R.id.nav_home:
+                intent = new Intent(this, SecondaryActivity.class);
+                break;
+        }
+        startActivity(intent);
+    }*/
+
 
     public void launchMainActivity(MenuItem item) {
         //Log.d(LOG_TAG, "Button clicked!");
