@@ -16,6 +16,7 @@ import android.view.View;
 public class BaseActivity extends AppCompatActivity {
 
     private DrawerLayout mDrawerLayout;
+    public static final int SETTINGS_REQUEST = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,6 +87,10 @@ public class BaseActivity extends AppCompatActivity {
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
                 return true;
+            case R.id.action_settings:
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivityForResult(intent, SETTINGS_REQUEST);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
