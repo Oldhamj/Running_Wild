@@ -9,22 +9,22 @@
             android:id="@+id/nav_one"
             android:title="@string/nav_one"
             android:icon="@drawable/ic_profile"
-            android:onClick="launchSecondActivity"/>
+            android:onClick="launchActivity"/>
         <item
             android:id="@+id/nav_two"
             android:title="@string/nav_two"
             android:icon="@drawable/ic_map"
-            android:onClick="launchMapsActivity"/>
+            android:onClick="launchActivity"/>
         <item
             android:id="@+id/nav_three"
             android:title="@string/nav_three"
             android:icon="@drawable/ic_schedule"
-            android:onClick="launchThirdActivity"/>
+            android:onClick="launchActivity"/>
         <item
             android:id="@+id/nav_four"
             android:title="@string/nav_four"
             android:icon="@drawable/ic_history"
-            android:onClick="launchFourthActivity"/>
+            android:onClick="launchActivity"/>
     </group>
     <group
         android:checkableBehavior="single"
@@ -33,6 +33,6 @@
             android:id="@+id/nav_home"
             android:title="@string/nav_home"
             android:icon="@drawable/ic_home"
-            android:onClick="launchMainActivity"/>
+            android:onClick="launchActivity"/>
     </group>
 </menu>

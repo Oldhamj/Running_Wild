@@ -90,51 +90,26 @@ public class BaseActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    /*public void launchActivity(MenuItem item) {
+    public void launchActivity(MenuItem item) {
         Intent intent = new Intent();
         switch (item.getItemId()) {
             case R.id.nav_one:
-                intent = new Intent(this, SecondaryActivity.class);
+                intent = new Intent(this, ProfileActivity.class);
                 break;
             case R.id.nav_two:
-                intent = new Intent(this, SecondaryActivity.class);
+                intent = new Intent(this, MapsActivity.class);
                 break;
             case R.id.nav_three:
-                intent = new Intent(this, SecondaryActivity.class);
+                intent = new Intent(this, ScheduleActivity.class);
                 break;
             case R.id.nav_four:
-                intent = new Intent(this, SecondaryActivity.class);
-                break
+                intent = new Intent(this, HistoryActivity.class);
+                break;
             case R.id.nav_home:
-                intent = new Intent(this, SecondaryActivity.class);
+                intent = new Intent(this, MainActivity.class);
                 break;
         }
         startActivity(intent);
-    }*/
+    }
 
-
-    public void launchMainActivity(MenuItem item) {
-        //Log.d(LOG_TAG, "Button clicked!");
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-    }
-    public void launchSecondActivity(MenuItem item) {
-        //Log.d(LOG_TAG, "Button clicked!");
-        Intent intent = new Intent(this, SecondaryActivity.class);
-        startActivity(intent);
-    }
-    public void launchThirdActivity(MenuItem item) {
-        //Log.d(LOG_TAG, "Button clicked!");
-        Intent intent = new Intent(this, ThirdActivity.class);
-        startActivity(intent);
-    }
-    public void launchFourthActivity(MenuItem item) {
-        //Log.d(LOG_TAG, "Button clicked!");
-        Intent intent = new Intent(this, FourthActivity.class);
-        startActivity(intent);
-    }
-    public void launchMapsActivity(MenuItem item) {
-        Intent intent = new Intent(this, MapsActivity.class);
-        startActivity(intent);
-    }
 }

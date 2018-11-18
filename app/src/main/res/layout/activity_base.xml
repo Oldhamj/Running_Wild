@@ -23,8 +23,7 @@
         <FrameLayout
             android:id="@+id/stuff"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/textview5" />
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <android.support.design.widget.NavigationView

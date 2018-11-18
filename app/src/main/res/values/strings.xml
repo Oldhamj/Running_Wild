@@ -1,20 +1,25 @@
 <resources>
+    <!-- App Strings -->
     <string name="app_name">Running_Wild</string>
+
+    <!-- BaseActivity Strings -->
+    <string name="title_activity_base">BaseActivity</string>
+
     <!-- MainActivity "Home" Strings -->
     <string name="title_activity_main">Running Wild</string>
     <string name="textview">Home</string>
 
-    <!-- SecondaryActivity "Profile" Strings -->
+    <!-- ProfileActivity Strings -->
     <string name="title_activity_secondary">Profile</string>
     <string name="textView2">Profile Page Content</string>
 
     <!-- MapsActivity "Map" Strings -->
 
-    <!-- ThirdActivity "Schedule" Strings -->
+    <!-- ScheduleActivity Strings -->
     <string name="title_activity_third">Schedule</string>
     <string name="textView3">Schedule Page Content</string>
 
-    <!-- FourthActivity "History" Strings -->
+    <!-- HistoryActivity Strings -->
     <string name="title_activity_fourth">History</string>
     <string name="textView4">History Page Content</string>
 
@@ -35,6 +40,4 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="title_activity_base">BaseActivity</string>
-    <string name="textview5">Base</string>
 </resources>

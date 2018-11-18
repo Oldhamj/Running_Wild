@@ -45,18 +45,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SecondaryActivity"
+            android:name=".ProfileActivity"
             android:label="@string/title_activity_secondary"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity
-            android:name=".ThirdActivity"
+            android:name=".ScheduleActivity"
             android:label="@string/title_activity_third"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".FourthActivity"
+            android:name=".HistoryActivity"
             android:label="@string/title_activity_fourth"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
