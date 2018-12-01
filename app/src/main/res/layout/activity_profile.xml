@@ -11,7 +11,7 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-        <include layout="@layout/content_secondary"/>
+        <include layout="@layout/content_profile"/>
 
         <!--<TextView
             android:id="@+id/textView2"

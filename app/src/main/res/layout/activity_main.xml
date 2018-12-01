@@ -11,13 +11,15 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-        <TextView
+        <include layout="@layout/content_main"/>
+
+        <!--<TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/textview"
-            android:gravity="center"/>
+            android:gravity="center"/>-->
 
     </LinearLayout>
 </ScrollView>

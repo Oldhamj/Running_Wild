@@ -22,6 +22,10 @@
     <!-- HistoryActivity Strings -->
     <string name="title_activity_fourth">History</string>
     <string name="textView4">History Page Content</string>
+    <string name="skill_name">Skill Name</string>
+    <string name="description">Description</string>
+    <string name="duration">Duration</string>
+    <string name="distance">Distance</string>
 
     <string name="title_activity_maps">Map</string>
     <string name="my_header_title">Run Tracker</string>

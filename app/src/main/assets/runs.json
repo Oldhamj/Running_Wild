@@ -1,0 +1,17 @@
+{
+  "Run 1": {
+    "Description": "Thursday Morning",
+    "Duration": "15 minutes",
+    "Distance": "1 mile"
+  },
+  "Run 2": {
+    "Description": "Friday Afternoon",
+    "Duration": "18 minutes",
+    "Distance": "1.2 miles"
+  },
+  "Run 3": {
+    "Description": "Saturday Morning",
+    "Duration": "16 minutes",
+    "Distance": "1.1 miles"
+  }
+}

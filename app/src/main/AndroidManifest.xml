@@ -47,7 +47,7 @@
         <activity
             android:name=".ProfileActivity"
             android:label="@string/title_activity_secondary"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
@@ -62,11 +62,15 @@
         <activity
             android:name=".BaseActivity"
             android:label="@string/title_activity_base"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SettingsActivity"
             android:label="Settings"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RunListingActivity"
+            android:label="Run Listing"
+            android:parentActivityName=".HistoryActivity"/>
     </application>
 
 </manifest>
