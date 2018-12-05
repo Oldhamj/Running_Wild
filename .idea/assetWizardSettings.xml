@@ -3,6 +3,11 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
+        <entry key="imageWizard">
+          <value>
+            <PersistentState />
+          </value>
+        </entry>
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -14,9 +19,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="opacityPercent" value="25" />
-                            <entry key="outputName" value="ic_running_with_bill_0425" />
-                            <entry key="sourceFile" value="C:\Users\Master\Downloads\running-with-bill-0425.svg" />
+                            <entry key="outputName" value="ic_run_warmup" />
+                            <entry key="sourceFile" value="C:\Users\Master\Downloads\run-warmup.psd" />
                           </map>
                         </option>
                       </PersistentState>

@@ -8,6 +8,7 @@
     <!-- MainActivity "Home" Strings -->
     <string name="title_activity_main">Running Wild</string>
     <string name="textview">Home</string>
+    <string name="main_button">Get Started</string>
 
     <!-- ProfileActivity Strings -->
     <string name="title_activity_secondary">Profile</string>

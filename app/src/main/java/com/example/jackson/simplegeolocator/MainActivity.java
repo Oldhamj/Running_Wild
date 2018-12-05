@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
@@ -23,7 +24,7 @@ import com.example.jackson.simplegeolocator.R;
 
 public class MainActivity extends BaseActivity {
 
-    private TextView mTextMessage;
+    //private TextView mTextMessage;
 
     /*private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -54,7 +55,16 @@ public class MainActivity extends BaseActivity {
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.getMenu().getItem(4).setChecked(true);
 
-        mTextMessage = (TextView) findViewById(R.id.message);
+        final Button getStarted = findViewById(R.id.get_started_button);
+        getStarted.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent1 = new Intent(v.getContext(),ProfileActivity.class);
+                v.getContext().startActivity(intent1);
+            }
+        });
+
+
+        //mTextMessage = (TextView) findViewById(R.id.message);
         //BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         //navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
