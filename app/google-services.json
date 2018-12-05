@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1088406946815",
+    "firebase_url": "https://runningwild-25d08.firebaseio.com",
+    "project_id": "runningwild-25d08",
+    "storage_bucket": "runningwild-25d08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088406946815:android:a1d887554989c961",
+        "android_client_info": {
+          "package_name": "com.example.jackson.simplegeolocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088406946815-olnmh5t81sg83i7o0k2gaa5gapmpb1op.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jackson.simplegeolocator",
+            "certificate_hash": "3714c9f18c4b2b5678d8699892e8af6c968421cc"
+          }
+        },
+        {
+          "client_id": "1088406946815-rj4gfu16hdmv0ddi5bjijn9h5dcmgb0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDpThf4RFrNK0PSTpFuyFnQ-MUSXcCYk8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088406946815-rj4gfu16hdmv0ddi5bjijn9h5dcmgb0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
