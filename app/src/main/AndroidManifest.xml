@@ -70,7 +70,7 @@
         <activity
             android:name=".RunListingActivity"
             android:label="Run Listing"
-            android:parentActivityName=".HistoryActivity"/>
+            android:parentActivityName=".HistoryActivity" />
     </application>
 
 </manifest>

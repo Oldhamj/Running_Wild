@@ -29,10 +29,15 @@
     <group
         android:checkableBehavior="single"
         android:id="@+id/menu_bottom">
-        <item
+        <!--<item
             android:id="@+id/nav_home"
             android:title="@string/nav_home"
             android:icon="@drawable/ic_home"
+            android:onClick="launchActivity"/>-->
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/nav_logout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24px"
             android:onClick="launchActivity"/>
     </group>
 </menu>

@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "1088406946815-6kh7n01o6ncuj2spjuapnb6v36dm8pkd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jackson.simplegeolocator",
+            "certificate_hash": "289ff7d7ce57e4219e489aded2f07db3cebeaae9"
+          }
+        },
+        {
           "client_id": "1088406946815-rj4gfu16hdmv0ddi5bjijn9h5dcmgb0o.apps.googleusercontent.com",
           "client_type": 3
         }
